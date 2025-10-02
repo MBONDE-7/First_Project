@@ -1,0 +1,195 @@
+.Index-body {
+font-family: 'Amiri', serif;
+padding: 0;
+margin: 0;
+font-size: 16px;
+line-height: 1.5;
+}
+.Index-header1 {
+background-color: red;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 40px;
+color: white;
+font-size: 26px;
+font-weight: bold;
+text-align: center;
+}
+.Index-header1 .Logo {
+size: 3.5rem;
+font-weight: bold;
+color:white;
+align-items: center;
+justify-content: center;
+}
+.Logo-group img {
+height: 60px;
+verticle-align: middle;
+}
+.Logo-text {
+color: purple;
+font-weight: bold;
+font-size: 24px;
+}
+h1 {
+color: red;
+font-size: 20px;
+}
+.home {
+background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('IMAGES/img5.jpg');
+background-size: cover;
+background-repeat: no repeat;
+background-position: center;
+height: 100vh;
+justify-content: center;
+align-items: center;
+text-align: center;
+display: flex;
+border-radius: 20px;
+overflow: hidden;
+margin: auto;
+object-fit: cover;
+}
+.home h2 {
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: white;
+text-align: center;
+font-size: 40px;
+font-weight: bold;
+}
+.login-box {
+background: white;
+padding: 40px 120px 40px 120px;
+box-shadow: 0 0 10px rgba(0,0,0,0.1);
+width: 300px;
+text-align: center;
+margin: 50px 400px 50px 400px;
+}
+.login-box h3 {
+color: green;
+font-weight: bold;
+font-size:large;
+}
+input {
+width: 90%;
+padding: 10px;
+margin: 8px 0;
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+button {
+background: rgb(3, 141, 33);
+color: white;
+padding: 10px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+width: 100px;
+}
+button:hover {
+background: darkgreen;
+}
+.Index-container1 {
+height: 300px;
+text-align: center;
+justify-content: center;
+align-items: center;
+display: flex;
+border-style:inherit;
+border-radius: 30px;
+}
+.Index-container1 .IC1-h1 {
+font-size: 40px;
+font-weight: bold;
+color: green;
+font-family: 'Amiri', serif, 'Great Vibes', cursive;
+}
+.Index-header .Logo {
+size: 3.5rem;
+font-weight: bold;
+color:white;
+align-items: center;
+justify-content: center;
+padding left: 50px;
+}
+hr {
+color: yellow;
+width: 95%;
+height: 3px;
+}
+.Home {
+display: flex;
+}
+.Home .Home-content {
+background-image: url("IMAGES/img4.jpeg"), url("IMAGES/img1.jpeg");
+background-repeat: repeat;
+width: 700px;
+height: 70vh;
+background-size: cover;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 30px;
+}
+				/* End of Index page style */
+.Body-1 {
+font-family: Arial, Calibri, Sens-Sarif;
+background-color: Purple;
+}
+header {
+background-color: white;
+padding: 20px 10px;
+align-items: center;
+border-radius: 30px;
+display: flex;
+gap: 10px;
+justify-content: space-between;
+}
+.Logo-group {
+display: flex;
+align-items: center;
+}
+.Logo-group img {
+height: 60px;
+verticle-align: middle;
+margin right: 10px
+}
+.Logo-text {
+color: purple;
+font-weight: bold;
+font-size: 24px;
+}
+.Links {
+list-style: none;
+display: flex;
+gap:30px;
+margin-right: 20px;
+}
+.Links li a {
+font-size: 14px;
+text-decoration: none;
+font-weight: bold;
+marginleft: 15px;
+font-color: yellow;
+}
+.Links li a:hover {
+text-decoration: underline;
+color: red;
+}
+.Links li a:active {
+color: white;
+text-decoration: underline;
+}
+.search-container {
+display: flex;
+align-items: center;
+}
+.search-container input[type= "text"] {
+padding: 5px;
+font-size: 16px;
+}
+.search-container button {
+padding: 6px 10px;
+margin-left: 5px;
+}
